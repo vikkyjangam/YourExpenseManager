@@ -1,61 +1,84 @@
-📊 Personal Expense Manager
-An intelligent, AI-powered expense tracking app built using Power Apps, Copilot, and Microsoft Dataverse. This application allows users to add, view, edit, and delete expenses, visualize expense trends, and interact with an AI assistant (Copilot) to gain insights from the data.
+<h1 style="font-size: 2.5em; font-weight: 800;">📊 Personal Expense Manager</h1> 
 
+> *An intelligent, AI-powered expense tracking app built using **Power Apps, Copilot, and Microsoft Dataverse**.*  
+> Track expenses, visualize trends, and interact with an AI assistant for data-driven insights.  
 
-🔧 Built With
-Microsoft Power Apps – Low-code/no-code platform to build custom business apps.
+---
 
-Microsoft Copilot (Preview) – Embedded AI assistant to answer queries based on app data.
+## 🔧 Built With  
+| Technology | Purpose |  
+|------------|---------|  
+| **Microsoft Power Apps** | Low-code platform for building the app |  
+| **Microsoft Copilot (Preview)** | Embedded AI assistant for natural language queries |  
+| **Dataverse** | Cloud storage for structured expense data |  
+| **Power Automate** *(Optional)* | Email reminders/automation |  
+| **Power BI** *(Optional)* | Advanced analytics/visualizations |  
 
-Dataverse – Cloud-based storage to manage structured data.
+---
 
-Power Automate (optional for email reminders or automation)
+## 💡 Key Features  
 
-Power BI (optional for advanced analytics)
+### ✨ Core Functionality  
+- **Add/Edit/Delete Expenses**  
+  Input category, amount, date, and payment method.  
+- **Category-wise Breakdown**  
+  Pie chart visualization of spending by category (Food, Utilities, Transport, etc.).  
+- **Cost Trend Analysis**  
+  Line chart to track spending habits over time.  
 
-💡 Key Features
-Feature	Description
-Add/Edit/Delete Expenses	Input and manage details like category, amount, date, and payment method.
-Category-wise Breakdown	View a pie chart of total expenses per category (Food, Utilities, Transport, etc.).
-Cost Trend Line Chart	Visualize trends in your spending habits.
-Copilot Integration	Ask natural language questions like “Which payment method did I use most?” and get instant insights.
-Search & Filter	Quickly locate any expense by description or category.
-Email Feature	Send an email with expense summaries (via Power Automate - optional).
-🚀 Getting Started
-Clone the Repo:
+### 🤖 AI-Powered Insights  
+- **Copilot Integration**  
+  Ask questions like:  
+  - *“What was my highest expense last month?”*  
+  - *“Which payment method did I use most?”*  
+- **Search & Filter**  
+  Quickly find expenses by description or category.  
 
-This app was built and exported from Power Apps.
+### 📧 Optional Extras  
+- **Email Summaries** (via Power Automate)  
+  Send expense reports directly to your inbox.  
 
-To use it, open Power Apps, go to Apps > Import Canvas App, and select the .msapp file (provided separately).
+---
 
-Configure Dataverse Table:
+## 🚀 Getting Started  
 
-Create or import the Dataverse table used for storing expenses.
+### 1️⃣ Clone & Import  
+- Download the `.msapp` file (provided separately).  
+- In **Power Apps**, go to *Apps > Import Canvas App* and select the file.  
 
-Make sure your column names match those in the Power App.
+### 2️⃣ Configure Dataverse  
+- Create/import the **Expense table** in Dataverse.  
+- Ensure column names match the app’s schema (e.g., `Category`, `Amount`, `Date`).  
 
-Enable Copilot:
+### 3️⃣ Enable Copilot  
+- Open the app in **Power Apps Studio**.  
+- Turn on *Copilot Preview* and connect it to your dataset.  
+- Provide a short description (e.g., *"This dataset tracks personal expenses by category, date, and payment method."*).  
 
-Go to Power Apps Studio, turn on the Copilot preview, and connect it to the dataset.
+---
 
-Provide a short description of the dataset to help Copilot understand the context.
+## 🧠 Sample Copilot Queries  
+- *“Show all travel-related expenses.”*  
+- *“Which category exceeded my budget?”*  
+- *“Compare spending between January and February.”*  
 
-🧠 Sample Copilot Queries
-“What was my highest expense last month?”
+---
 
-“Which category had the most spending?”
-
-“Show all expenses related to travel.”
-
-“Which payment method did I use most?”
-
-📸 Screenshots
+## 📸 Screenshots  
 ![App Screenshot 1](app1.png)
 ![App Screenshot 2](app2.png)
 ![App Screenshot 3](app3.png)
 ![App Screenshot 4](app4.png)
 
-🔒 Security & Best Practices
-Role-based access can be configured in Power Apps environment.
+---
 
-Copilot’s AI-generated responses should be verified before taking decisions.
+## 🔒 Security & Best Practices  
+- **Role-based access**: Configure permissions in the Power Apps environment.  
+- **Verify AI suggestions**: Cross-check Copilot’s responses before acting on them.  
+- **Regular backups**: Export Dataverse data periodically.  
+
+---
+
+> **Note**: For advanced features (Power Automate/Power BI), additional setup may be required.  
+
+
