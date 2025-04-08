@@ -50,9 +50,10 @@ Provide a short description of the dataset to help Copilot understand the contex
 “Which payment method did I use most?”
 
 📸 Screenshots
-Expense Dashboard View
-
-Expense Detail View
+![App Screenshot 1](app1.png)
+![App Screenshot 2](app2.png)
+![App Screenshot 3](app3.png)
+![App Screenshot 4](app4.png)
 
 🔒 Security & Best Practices
 Role-based access can be configured in Power Apps environment.
